@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main() {
-int marks;
-scanf("%d",&marks);
-if(marks > 40)
-  {
-   printf("pass"); 
-  } 
-  else
-  {
-    printf("fail");
-  } 
-    return 0;
+int year;
+scanf("%d",& year);
+if(year %4 ==0)
+{
+    printf("leap year");
+}
+else 
+{
+printf("not leap year");
+}
+return 0;
 }
