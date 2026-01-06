@@ -1,16 +1,13 @@
 #include <stdio.h>
-int main() {
-int a;
-scanf("%d",&a);
-if(a%5==0)
-{
-    printf("yes");
+int main(){
+    char ch;
+    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||)
+    {
+    printf("the character is a vowel");
+ }    
+else{
+    printf("the character is not a vowel");
 }
-else
-{
-    printf("no");
-}
-
     
     return 0;
 }
