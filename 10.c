@@ -1,16 +1,32 @@
 #include <stdio.h>
 int main() {
-int tem;
-scanf("%d",& tem);
-if(tem > 30)
+int marks;
+printf("enter marks(0 -100):");
+scanf("%d",& marks);
+if(marks<0||marks>100)
 {
-    printf("hot");
-}    
-else
-{
-    printf("normal");
+ printf("invalid marks\n");   
 }
-
+else if(marks >=90)
+{
+ printf("Grade:A\n");   
+}
+else if(marks >=80)
+{
+ printf("Grade:B\n");   
+}
+else if(marks >=70)
+{
+ printf("Grade:C\n");   
+}
+else if(marks >=60)
+{
+    printf("Grade:D\n");
+}
+else 
+{
+ printf("Grade:F\n");
+}
     
-    return 0;
+ return 0;
 }
