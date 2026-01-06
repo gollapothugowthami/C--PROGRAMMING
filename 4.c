@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main() {
-int age;
-scanf("%d",&age);
-if(age>18)
-{
-printf("eligible");    
+int a,b,c;
+scanf("%d %d %d", &a,&b,&c) ;
+if(a>b&&a>c){
+printf("a is greater");
+}  
+if(b>c){
+    printf("b is greater");
 }
-else
- {
-    printf("not eligible");
- }   
-    return 0;
+else{
+    printf("c is greater");
+} 
+ return 0;
 }
