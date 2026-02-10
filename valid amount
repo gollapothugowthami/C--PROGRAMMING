@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int amount = 100;
+scanf("%d", & amount);
+if(amount = 500)
+{
+    printf("valid amount");
+}  
+else if (amount = 450)
+{
+    printf("invalid amount");
+}
+else  (amount =1000)
+{
+    printf("valid amount");
+}  
+
+    
+    return 0;
+}
