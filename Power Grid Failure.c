@@ -1,44 +1,25 @@
 #include <stdio.h>
 
 int main() {
-    int n, noise;
-    int violations = 0;
-    int max_streak = 0;
-    int current_streak = 0;
-    int i = 0;
-
-    // Read the number of entries
-    if (scanf("%d", &n) != 1) 
-
+    int dataPack, n, usage, i = 0, exhaustedDay = -1, overuse = 0;
+    scanf("%d %d", &dataPack, &n);
     while (i < n) {
-        scanf("%d", & n);
-        if (noise > 70) {
-            violations++;
-            current_streak++;
-            if (current_streak > max_streak) {
-                max_streak = current_streak;
+        scanf("%d", &usage);
+        if (exhaustedDay == -1) {
+            dataPack -= usage;
+            if (dataPack <= 0) {
+                exhaustedDay = i + 1;
+                overuse = (dataPack < 0) ? -dataPack : 0;
             }
-        } else {
-            current_streak = 0;
         }
         i++;
     }
+    if (exhaustedDay != -1){
+     printf("Exhausted Day: %d\nOverused Data: %d\n", exhaustedDay, overuse);
+    }
+    else{
 
-    printf("Noise Violations: %d\n", violations);
-    printf("Lo+ngest Violation Streak: %d\n", max_streak);
-
+     printf("Exhausted Day: Not Exhausted\nOverused Data: 0\n");
+    }
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
