@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main() {
-int a;
-scanf("%d",&a);
-if(a %2==0)
-printf("even");
+printf("Hello How are you?"); 
+printf("My name is gowthami\n");
+printf("Today is 19th May 2026\n");
+printf("Iam at SSCET SALAM \n");
+printf("students are learning coding\n");
+printf("for some time there was no power\n");
+printf("now power is okay\n");
 
-else{
-printf("odd");    
-}    
- return 0;
+    
+    return 0;
 }
