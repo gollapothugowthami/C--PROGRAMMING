@@ -1,0 +1,65 @@
+#include<stdio.h>
+int main(){
+    int a=1; //types of declarations
+    int A=2;
+    int _All=3;
+    int num1=4;
+    int count=5;
+    int temp=6;
+    int score=7;//ends
+    char mothername[]="emi";
+    int motherage=42;
+    char father[]="sam";
+    int fatherage=44;
+    char name[]="gowthami";
+    int age=19;
+    char family_name[]="shallom";
+    int family_expenses=25000;
+    char fjob[]="bussiness";
+    char mjob[]="house wife";
+    int fprofit=200;
+    int mprofit=0;
+    int floss=0;
+    int mloss=0;
+    char sister[]="graci";
+    char love[]="family";
+    char color[]="burgandy";
+    char chocolate[]="diary milk";
+    char drink[]="bubble tea";
+    char non_veg[]="chicken nuglets";
+    char veg[]="all fries";
+    char akki[]="petu";
+    char hobby[]="drawing";
+    {
+    	printf("a=%d\n",a);
+    	printf("A=%d\n",A);
+    	printf("_All=%d\n",_All);
+    	printf("num1=%d\n",num1);
+    	printf("count=%d\n",count);
+    	printf("temp=%d\n",temp);
+    	printf("score=%d\n",score);
+    	printf("mothername=%s\n",mothername);
+    	printf("motherage=%d\n",motherage);
+    	printf("father=%s\n",father);
+    	printf("father age=%d\n",fatherage);
+    	printf("name=%s\n",name);
+    	printf("age=%d\n",age);
+    	printf("family name=%s\n",family_name);
+    	printf("family expenses=%d\n",family_expenses);
+    	printf("fjob=%s\n",fjob);
+    	printf("mjob=%s\n",mjob);
+    	printf("fprofit=%d\n",fprofit);
+    	printf("mprofit=%d\n",mprofit);
+    	printf("floss=%d\n",floss);
+    	printf("mloss=%d\n",mloss);
+    	printf("sister=%s\n",sister);
+    	printf("love=%s\n",love);
+    	printf("color=%s\n",color);
+    	printf("chocolate=%s\n",chocolate);
+    	printf("drink=%s\n",drink);
+    	printf("non veg=%s\n",non_veg);
+    	printf("veg=%s\n",veg);
+    	printf("akki=%s\n",akki);
+    	printf("hobby=%s\n",hobby);
+	}
+}
