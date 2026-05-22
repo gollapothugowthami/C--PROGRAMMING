@@ -1,15 +1,18 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main() {
+int year;
+scanf("%d",& year);
+printf("enter the year:");
+if(year %4 == 0 && year %100! =0)
 {
-    int n,i,a[50],sum=0;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
-    {
-    scanf("%d",&a[i]);
-    sum+=a[i];
-    }
-    {
-        printf("%d",sum);
-    }
+    printf("It is leap year");
+
+}   
+else
+{
+    printf("It is not leap year");
+} 
+    //Your Code goes here!
+    
     return 0;
 }
