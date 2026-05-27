@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+char name[]="NANI";
+int n;
+n=strlen(name);
+ char cinema[]="natural star";
+ printf("%s has %d Letters", name,n);
+ printf("%s",strcat(name, cinema));
+    
+    return 0;
+}
