@@ -1,16 +1,17 @@
 #include <stdio.h>
 int main() {
-int length;
-scanf("%d", & length);
-if(length >= 5)
+ char *name;
+ int length;
+ char*cptr=name;
+ name="DELHI";
+printf("%s\n",name);
+while(*cptr!='\0')
 {
-    printf("valid email");
-}
-else
-{
-    printf("invalid");
-}    
+printf("%c is stored at address %u\n",*cptr,cptr);
 
+}
+length=cptr-name;
+printf("\n length of the string -%d\n", length);
     
     return 0;
 }
