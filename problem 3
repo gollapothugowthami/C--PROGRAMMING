@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+int num, square; 
+printf("enter the value:");
+scanf("%d",&num);
+square=num*num;
+printf("%d\n", square);
+    
+    return 0;
+}
